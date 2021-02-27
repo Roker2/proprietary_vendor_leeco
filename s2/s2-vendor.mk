@@ -229,6 +229,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/lib/libchromatix_ov8865_sunny_ffhy_20_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_ffhy_20_video_full.so \
     vendor/leeco/s2/proprietary/vendor/lib/libchromatix_ov8865_sunny_ffhy_20_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_ffhy_20_zsl_preview.so \
     vendor/leeco/s2/proprietary/vendor/lib/libchromatix_ov8865_sunny_ffhy_20_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_ffhy_20_zsl_video.so \
+    vendor/leeco/s2/proprietary/vendor/lib/libdlbdapstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdlbdapstorage.so \
     vendor/leeco/s2/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/leeco/s2/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/leeco/s2/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
