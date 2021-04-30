@@ -88,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel.xml \
     vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ap2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ap2.xml \
     vendor/leeco/s2/proprietary/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ghost.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/pp_calib_data_truly_r69006_fhd_cmd_dsi_panel_ghost.xml \
-    vendor/leeco/s2/proprietary/etc/settings/mono_qcom.cnt:$(TARGET_COPY_OUT_SYSTEM)/etc/settings/mono_qcom.cnt \
     vendor/leeco/s2/proprietary/lib/libLetvCameraImageSDK.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libLetvCameraImageSDK.so \
     vendor/leeco/s2/proprietary/lib/libamipengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libamipengine.so \
     vendor/leeco/s2/proprietary/lib/libarcimgutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcimgutils.so \
@@ -114,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib64/libfpservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfpservice.so \
     vendor/leeco/s2/proprietary/vendor/bin/gx_fpcmd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpcmd \
     vendor/leeco/s2/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
+    vendor/leeco/s2/proprietary/vendor/etc/tfa/mono_qc.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/tfa/mono_qc.cnt \
     vendor/leeco/s2/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
     vendor/leeco/s2/proprietary/vendor/lib/libactuator_ak7371_ov16880_primax.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_ov16880_primax.so \
     vendor/leeco/s2/proprietary/vendor/lib/libactuator_ak7371_ov16880_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_ov16880_sunny.so \

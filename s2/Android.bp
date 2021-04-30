@@ -27,14 +27,15 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/lib/libtfa9890.so"],
+			srcs: ["proprietary/vendor/lib/libtfa9890.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/lib64/libtfa9890.so"],
+			srcs: ["proprietary/vendor/lib64/libtfa9890.so"],
 		},
 	},
 	compile_multilib: "both",
 	prefer: true,
+	soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
