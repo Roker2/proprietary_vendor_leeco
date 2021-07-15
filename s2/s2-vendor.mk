@@ -17,27 +17,27 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/system/etc/dts/dts-m6m8-lic.key:$(TARGET_COPY_OUT_SYSTEM)/etc/dts/dts-m6m8-lic.key \
     vendor/leeco/s2/proprietary/system/etc/firmware/DE.o.msm8952:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8952 \
     vendor/leeco/s2/proprietary/system/etc/firmware/DE.o.msm8976:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/DE.o.msm8976 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/alipay.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b00 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/alipay.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b01 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/alipay.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b02 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/alipay.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b03 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/alipay.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.mdt \
+    vendor/leeco/s2/proprietary/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b00 \
+    vendor/leeco/s2/proprietary/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b01 \
+    vendor/leeco/s2/proprietary/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b02 \
+    vendor/leeco/s2/proprietary/vendor/firmware/alipay.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b03 \
+    vendor/leeco/s2/proprietary/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.mdt \
     vendor/leeco/s2/proprietary/system/etc/firmware/dxhdcp2.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b00 \
     vendor/leeco/s2/proprietary/system/etc/firmware/dxhdcp2.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b01 \
     vendor/leeco/s2/proprietary/system/etc/firmware/dxhdcp2.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b02 \
     vendor/leeco/s2/proprietary/system/etc/firmware/dxhdcp2.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.b03 \
     vendor/leeco/s2/proprietary/system/etc/firmware/dxhdcp2.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/dxhdcp2.mdt \
-    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b00 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b01 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b02 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.b03 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.mbn \
-    vendor/leeco/s2/proprietary/system/etc/firmware/fidotap.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/fidotap.mdt \
-    vendor/leeco/s2/proprietary/system/etc/firmware/goodixfp.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b00 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/goodixfp.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b01 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/goodixfp.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b02 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/goodixfp.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.b03 \
-    vendor/leeco/s2/proprietary/system/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/goodixfp.mdt \
+    vendor/leeco/s2/proprietary/vendor/firmware/fidotap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fidotap.b00 \
+    vendor/leeco/s2/proprietary/vendor/firmware/fidotap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fidotap.b01 \
+    vendor/leeco/s2/proprietary/vendor/firmware/fidotap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fidotap.b02 \
+    vendor/leeco/s2/proprietary/vendor/firmware/fidotap.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fidotap.b03 \
+    vendor/leeco/s2/proprietary/vendor/firmware/fidotap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/fidotap.mbn \
+    vendor/leeco/s2/proprietary/vendor/firmware/fidotap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fidotap.mdt \
+    vendor/leeco/s2/proprietary/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b00 \
+    vendor/leeco/s2/proprietary/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b01 \
+    vendor/leeco/s2/proprietary/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b02 \
+    vendor/leeco/s2/proprietary/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b03 \
+    vendor/leeco/s2/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
     vendor/leeco/s2/proprietary/system/etc/firmware/ice40.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ice40.bin \
     vendor/leeco/s2/proprietary/system/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pfp_470.fw \
     vendor/leeco/s2/proprietary/system/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/leia_pm4_470.fw \
